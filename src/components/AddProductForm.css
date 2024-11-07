@@ -1,0 +1,101 @@
+/* Header title styling */
+.header-title {
+  position: absolute;
+  top: 20px; /* Adjust to control the distance from the top */
+  width: 19%;
+  font-size: 36px;
+  font-weight: bold;
+  color: #023047; 
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  z-index: 1; /* Ensures it appears on top */
+}
+/* General body styling */
+body {
+  background-color: #8ecae6;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Container for the form */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 500px;
+  padding: 40px;
+  background-color: #023047; 
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  color: #f1f1f1;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Title styling */
+.form-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffb703; /* Yellow for attention-grabbing title */
+  margin-bottom: 30px;
+}
+
+/* Label styling */
+.form-label {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #219ebc; /* Teal for clear text contrast */
+  padding-left: 4px;
+}
+
+/* Input fields styling */
+.form-input {
+  padding: 14px 16px;
+  margin-bottom: 25px;
+  border: 1px solid #219ebc; 
+  border-radius: 8px;
+  width: 100%;
+  background-color: #f1f1f1; /* Light background for readability */
+  color: #023047; /* Dark text color for input */
+  font-size: 16px;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  border-color: #ff8800; /* Orange border on focus for distinction */
+  outline: none;
+}
+
+/* Button styling */
+.form-button {
+  padding: 16px;
+  background-color: #ffb703; /* Yellow button for call-to-action */
+  color: #023047; 
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s ease-in-out;
+  width: 100%;
+}
+
+.form-button:hover {
+  background-color: #fb8500; /* Orange hover effect for interactivity */
+  transform: scale(1.05);
+}
+
+/* Error message styling */
+.form-error {
+  color: #fb8500; /* Orange for error messages */
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: center;
+}
